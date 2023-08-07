@@ -1,6 +1,6 @@
 import './App.css';
 import DATA from './data.json';
-import Map from 'react-map-gl';
+import { Map } from 'react-map-gl';
 import  DeckGL,  { GeoJsonLayer } from 'deck.gl';
 
 const MAPBOX_ACCESS_TOKEN ='pk.eyJ1IjoibW9oYW1lZGFsZGFob3VsIiwiYSI6ImNsbDBvNmIyZjAwMHkzZXA1OWxyenNqbmQifQ.qJzQG68GkZVBwvcZkjyLrw';
